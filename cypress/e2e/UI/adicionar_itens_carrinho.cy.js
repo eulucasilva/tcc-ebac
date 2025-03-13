@@ -22,7 +22,7 @@ context("US-0001 - Adicionar produtos ao carrinho", () => {
           produto.cor,
           produto.quantidade
         );
-        cy.get(".woocommerce-message").should("contain", produto.quantidade);
+        cy.get(".woocommerce-message").should("contain", produto.nomeProduto);
       });
     });
 
