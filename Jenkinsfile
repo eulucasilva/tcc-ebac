@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clonar Repositório') {
             steps {
-                git branch: 'main', url: 'https://github.com/eulucasilva/teste-e2e-ebac'
+                git branch: 'main', url: 'https://github.com/eulucasilva/tcc-ebac.git'
             }
         }
 
