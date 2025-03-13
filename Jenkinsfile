@@ -29,7 +29,7 @@ pipeline {
         stage('Executar Testes Web') {
             steps {
                 script {
-                    sh "npx cypress run --headless --spec 'cypress/e2e/UI/adicionar_itens_Carrinho.cy.js'"
+                    sh "npx cypress run --headless --spec 'cypress/e2e/UI/adicionar_itens_carrinho.cy.js'"
                 }
             }
         }
